@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/css/index.build.css" />
+        <script src="/js/menu.js" defer></script>
+        <title>Tæknibúðin</title>
+    </head>
+    <body>
+        <div id="menu" data-state="hidden">
+            <div class="container">
+                <div class="links">
+                    <a href="/nyjarvorur.html">Nýjar vörur</a>
+                    <a href="/tilbodsvorur.html">Tilboðsvörur</a>
+                    <a href="/vorulisti.html">Allar vörur</a>
+                </div>
+                <div class="searchbox">
+                    <form class="searchbox-container">
+                        <input type="search" placeholder="Leit eftir heiti, vörunúmeri, lýsingu, o.fl." />
+                        <button type="submit"><img src="/img/search.svg" /></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <header>
+            <div class="filter">
+                <div class="w-full">
+                    <div class="container">
+                        <a href="index.html" class="logo">
+                            <img src="/img/logo.svg" />
+                            <p>Tæknibúðin</p>
+                        </a>
+                        <div class="searchbox">
+                            <form class="searchbox-container">
+                                <input type="search" placeholder="Leit eftir heiti, vörunúmeri, lýsingu, o.fl." />
+                                <button type="submit"><img src="/img/search.svg" /></button>
+                            </form>
+                        </div>
+                        <nav>
+                            <a href="/nyjarvorur.html">Nýjar vörur</a>
+                            <a href="/tilbodsvorur.html">Tilboðsvörur</a>
+                            <a href="/vorulisti.html">Allar vörur</a>
+                        </nav>
+                        <div class="seek-end">
+                            <a href="/pontun.html" class="cart">
+                                <img src="/img/cart.svg" alt="Cart icon" />
+                                <span class="badge">1</span>
+                            </a>
+                            <button class="menu"><img src="/img/menu.svg" alt="Menu icon" /></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <h1 class="pontuntitill">Pöntun</h1>
+
+            <div class="pontunbox">
+                
+            <form>
+                <div class="kaupandi">
+                    
+                        <div class="formtitill">Kaupandi</div>
+
+                    <div class="formbox">
+                        <div>
+                            <label for="Nafn">Nafn</label><br>
+                            <input type="text" id="nafn" name="nafn"><br>
+                        </div>
+                        <div>
+                            <label for="Kennitala">Kennitala</label><br>
+                            <input type="text" id="kennitala" name="kennitala"><br>
+                        </div>
+                    </div>
+                    <div class="formbox">
+                        <div>
+                            <label for="Netfang">Netfang</label><br>
+                            <input type="text" id="netfang" name="netfang"><br>
+                        </div>
+                        <div>
+                            <label for="Sími">Sími</label><br>
+                            <input type="text" id="simi"><br>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="afhending">
+                    
+                    <div class="formtitill">Afhending</div>
+                    <div class="formbox">
+                        <div>
+                            <label for="Heimilisfang">Heimilisfang</label><br>
+                            <input type="text" id="heimilisfang" name="heimilisfang"><br>
+                        </div>
+                        <div>
+                            <label for="Póstnúmer">Póstnúmer</label><br>
+                            <input type="text" id="postnumer" name="postnumer"><br>
+                        </div>
+                    </div>
+                    <div class="formbox">
+                        <div>
+                            <label for="Staður">Staður</label><br>
+                            <input type="text" id="stadur" name="stadur"><br>
+                        </div>
+                        <div>
+                            <label for="Athugasemd">Athugasemd</label><br>
+                            <input type="text" id="athugasemd" name="athugasemd"><br>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+       
+            <div class="vorur">
+                <div class="robotcard">
+                <div class="robotrobot">
+                    <img src="/img/alex-knight-2EJCSULRwC8-unsplash.png" alt="Vinalegur vinnuróbot" />  
+                </div>
+                <div>
+                Vinalegur vinnurobot
+                </div>
+                <div class="verd">
+                    1.499.990 kr
+                </div>
+                </div>
+
+                <div class="mothercard">
+                <div class="modurbordbord">
+                    <img src="/img/alexandre-debieve-FO7JIlwjOtU-unsplash.png" alt="Tæknilegt móðurborð" />
+                </div>
+                <div>
+                Tæknilegt móðurborð
+                </div>
+                <div class="verd">
+                    189.000 kr.
+                </div>
+                </div>
+
+                <div class="samtalscard">
+                <div>
+                    Samtals
+                </div>
+                <div class="verd">
+                    1.688.990 kr.
+                </div>
+                </div>
+            </div>
+        </div>
+            <button class="sendapontun">SENDA PÖNTUN</button>
+
+
+
+
+        <footer class="fotur">
+            <div class="container">
+
+            <div class="opnunartimi">
+                <ul>
+                    <li class="titill">OPNUNARTÍMI</li>
+                    <li>Opið á laugardögum frá 9:00-18:00</li>
+                    <li>Opið á laugardögum frá 12:00-16:00</li>
+                    <li>Lokað á sunnudögum</li>
+                </ul>
+            </div>
+            <div class="samband">
+                
+                <ul>
+                    <li class="titill">HAFÐU SAMBAND</li>
+                    <li>Skiptiborð: 234-4568</li>
+                    <li>Tölvupóstur: thjonusta@example.org</li>
+                </ul>
+            </div>
+            <div class="annad">
+                
+                <ul>
+                    <li class="titill">ANNAÐ</li>
+                    <li>Rekja sendingu</li>
+                    <li>Skilaréttur</li>
+                    <li>Um okkur</li>
+                    <li>Störf</li>
+                </ul>
+            </div>
+            </div>
+            <div class="copyright">
+                © 2021 TÆKNIBÚÐIN - Allur réttur áskilinn
+            </div>
+        </footer>
+
+    </body>
+
+
+
+    
+</html>

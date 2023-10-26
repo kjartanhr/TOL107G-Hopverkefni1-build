@@ -1,0 +1,43 @@
+footer li {
+    list-style: none;
+    padding: 4px;
+}
+
+footer .titill {
+    font-size: 32px;
+    border-bottom-style: solid;
+    border-color: #E1CEC2;
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding: 2rem 1rem;
+    gap: 2rem;
+}
+
+@media only screen and (max-width: 500px) {
+    footer .container {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+footer ul {
+    padding: 0;
+}
+
+.fotur {
+    color: #FEFEFE;
+    background-color: #3C2A1E;
+}
+
+.copyright {
+    text-align: center;
+    padding: 5px;
+    border-top-style: solid;
+    border-color: #6F4E37;
+    border-width: 1px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
